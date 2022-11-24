@@ -214,9 +214,90 @@ body {
     height: 60px;
 }
 
+.locations {
+    width: 1240px;
+    margin: auto;
+}
 
+.locations h2 {
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    font-family: 'Josefin Sans', sans-serif;
+}
 
+.arrow__left {
+    box-sizing: border-box;
+    border: 2px solid #40467C;
+    width: 60px;
+    height: 60px;
+    margin-right: 30px;
+    margin-top: 0px;
+}
 
+.locations__arrow-left {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+
+.arrow__right {
+    background-color: #40467C;
+    width: 60px;
+    height: 60px;
+    margin-top: 0px;
+}
+
+.locations__arrow-right {
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 18px;
+}
+/* что-то не то */
+.locations__cards-block {
+    color: white;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 600;
+}
+
+.locations__cards-block h4 {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.block__img {
+    margin-top: 33px;
+    margin-right: 8px;
+    height: 16px;
+}
+
+.mark {
+    margin-top: 26px;
+}
+
+.block__two-city {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #B2B2D3;
+}
+
+.block__two-cost {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.block__cost-person {
+    color: #B2B2D3;
+    font-weight: 400;
+}
 
 
 
